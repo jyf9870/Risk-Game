@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml"
+          fx:controller="edu.duke.ece651.team2.client.controller.MainController">
+    <padding>
+        <Insets top="15" right="0" bottom="15" left="0"/>
+    </padding>
+    <columnConstraints>
+        <ColumnConstraints percentWidth="9.1"/>
+        <ColumnConstraints percentWidth="9.1"/>
+        <ColumnConstraints percentWidth="9.1"/>
+        <ColumnConstraints percentWidth="9.1"/>
+        <ColumnConstraints percentWidth="9.1"/>
+        <ColumnConstraints percentWidth="9.1"/>
+        <ColumnConstraints percentWidth="9.1"/>
+        <ColumnConstraints percentWidth="9.1"/>
+        <ColumnConstraints percentWidth="9.1"/>
+        <ColumnConstraints percentWidth="9.1"/>
+        <ColumnConstraints percentWidth="9"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints percentHeight="14.29"/>
+        <RowConstraints percentHeight="14.29"/>
+        <RowConstraints percentHeight="14.29"/>
+        <RowConstraints percentHeight="14.29"/>
+        <RowConstraints percentHeight="14.29"/>
+        <RowConstraints percentHeight="14.29"/>
+        <RowConstraints percentHeight="14.26"/>
+
+    </rowConstraints>
+    <children>
+        <Button text="${'&lt;&lt;Narnia&gt;&gt;'}"
+                fx:id="Narnia"
+                GridPane.rowIndex="0"
+                GridPane.columnIndex="0"
+                GridPane.rowSpan="2"
+                GridPane.columnSpan="2"
+                styleClass="expandable, TerritoryB"
+                onAction="#onTerritory"/>
+        <Button text="${'&lt;&lt;Mid&gt;&gt;'}"
+                fx:id="Mid"
+                GridPane.rowIndex="0"
+                GridPane.columnIndex="3"
+                GridPane.rowSpan="3"
+                GridPane.columnSpan="1"
+                styleClass="expandable, TerritoryB"
+                onAction="#onTerritory"/>
+        <Button text="${'&lt;&lt;Oz&gt;&gt;'}"
+                fx:id="Oz"
+                GridPane.rowIndex="0"
+                GridPane.columnIndex="5"
+                GridPane.rowSpan="3"
+                GridPane.columnSpan="1"
+                styleClass="expandable, TerritoryB"
+                onAction="#onTerritory"/>
+        <Button text="${'&lt;&lt;Gondor&gt;&gt;'}"
+                fx:id="Gondor"
+                GridPane.rowIndex="0"
+                GridPane.columnIndex="7"
+                GridPane.rowSpan="1"
+                GridPane.columnSpan="4"
+                styleClass="expandable, TerritoryB"
+                onAction="#onTerritory"/>
+        <Button text="${'&lt;&lt;Mordor&gt;&gt;'}"
+                fx:id="Mordor"
+                GridPane.rowIndex="2"
+                GridPane.columnIndex="7"
+                GridPane.rowSpan="2"
+                GridPane.columnSpan="4"
+                styleClass="expandable, TerritoryA"
+                onAction="#onTerritory"/>
+        <Button text="${'&lt;&lt;Elantris&gt;&gt;'}"
+                fx:id="Elantris"
+                GridPane.rowIndex="3"
+                GridPane.columnIndex="0"
+                GridPane.rowSpan="4"
+                GridPane.columnSpan="2"
+                styleClass="expandable, TerritoryA"
+                onAction="#onTerritory"/>
+        <Button text="${'&lt;&lt;Scadrial&gt;&gt;'}"
+                fx:id="Scadrial"
+                GridPane.rowIndex="4"
+                GridPane.columnIndex="3"
+                GridPane.rowSpan="1"
+                GridPane.columnSpan="3"
+                styleClass="expandable, TerritoryA"
+                onAction="#onTerritory"/>
+        <Button text="${'&lt;&lt;Roshar&gt;&gt;'}"
+                fx:id="Roshar"
+                GridPane.rowIndex="6"
+                GridPane.columnIndex="3"
+                GridPane.rowSpan="1"
+                GridPane.columnSpan="3"
+                styleClass="expandable, TerritoryA"
+                onAction="#onTerritory"/>
+        <Button text="${'&lt;&lt;Hogwarts&gt;&gt;'}"
+                fx:id="Hogwarts"
+                GridPane.rowIndex="5"
+                GridPane.columnIndex="7"
+                GridPane.rowSpan="2"
+                GridPane.columnSpan="4"
+                styleClass="expandable, TerritoryA"
+                onAction="#onTerritory"/>
+        <ImageView fitHeight="86.25"
+                   fitWidth="75.0"
+                   GridPane.rowIndex="2"
+                   GridPane.columnIndex="0"
+                   GridPane.columnSpan="2">
+            <Image url="@/images/road_v.png"/>
+        </ImageView>
+        <Text text="7"
+              GridPane.rowIndex="2"
+              GridPane.columnIndex="0"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="75"
+                   fitWidth="86.25"
+                   GridPane.rowIndex="0"
+                   GridPane.columnIndex="2"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_h.png"/>
+        </ImageView>
+        <Text text="4"
+              GridPane.rowIndex="0"
+              GridPane.columnIndex="2"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="75"
+                   fitWidth="86.25"
+                   GridPane.rowIndex="0"
+                   GridPane.columnIndex="4"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_h.png"/>
+        </ImageView>
+        <Text text="3"
+              GridPane.rowIndex="0"
+              GridPane.columnIndex="4"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="75"
+                   fitWidth="86.25"
+                   GridPane.rowIndex="0"
+                   GridPane.columnIndex="6"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_h.png"/>
+        </ImageView>
+        <Text text="4"
+              GridPane.rowIndex="0"
+              GridPane.columnIndex="6"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="75"
+                   fitWidth="86.25"
+                   GridPane.rowIndex="4"
+                   GridPane.columnIndex="2"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_h.png"/>
+        </ImageView>
+        <Text text="3"
+              GridPane.rowIndex="4"
+              GridPane.columnIndex="2"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="75"
+                   fitWidth="86.25"
+                   GridPane.rowIndex="6"
+                   GridPane.columnIndex="2"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_h.png"/>
+        </ImageView>
+        <Text text="3"
+              GridPane.rowIndex="6"
+              GridPane.columnIndex="2"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="75"
+                   fitWidth="86.25"
+                   GridPane.rowIndex="2"
+                   GridPane.columnIndex="6"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_h.png"/>
+        </ImageView>
+        <Text text="8"
+              GridPane.rowIndex="2"
+              GridPane.columnIndex="6"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="75"
+                   fitWidth="86.25"
+                   GridPane.rowIndex="6"
+                   GridPane.columnIndex="6"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_h.png"/>
+        </ImageView>
+        <Text text="3"
+              GridPane.rowIndex="6"
+              GridPane.columnIndex="6"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="86.25"
+                   fitWidth="75"
+                   GridPane.rowIndex="3"
+                   GridPane.columnIndex="3"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_v.png"/>
+        </ImageView>
+        <Text text="9"
+              GridPane.rowIndex="3"
+              GridPane.columnIndex="3"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="86.25"
+                   fitWidth="75"
+                   GridPane.rowIndex="3"
+                   GridPane.columnIndex="5"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_v.png"/>
+        </ImageView>
+        <Text text="9"
+              GridPane.rowIndex="3"
+              GridPane.columnIndex="5"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="86.25"
+                   fitWidth="75"
+                   GridPane.rowIndex="5"
+                   GridPane.columnIndex="4"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_v.png"/>
+        </ImageView>
+        <Text text="3"
+              GridPane.rowIndex="5"
+              GridPane.columnIndex="4"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="86.25"
+                   fitWidth="75"
+                   GridPane.rowIndex="4"
+                   GridPane.columnIndex="9"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_v.png"/>
+        </ImageView>
+        <Text text="4"
+              GridPane.rowIndex="4"
+              GridPane.columnIndex="9"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="86.25"
+                   fitWidth="75"
+                   GridPane.rowIndex="1"
+                   GridPane.columnIndex="9"
+                   GridPane.columnSpan="1">
+            <Image url="@/images/road_v.png"/>
+        </ImageView>
+        <Text text="10"
+              GridPane.rowIndex="1"
+              GridPane.columnIndex="9"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="86.25"
+                   fitWidth="75"
+                   GridPane.rowIndex="2"
+                   GridPane.columnIndex="2"
+                   GridPane.columnSpan="1"
+                   GridPane.valignment="TOP">
+            <Image url="@/images/road_tri_r.png"/>
+        </ImageView>
+        <Text text="8"
+              GridPane.rowIndex="2"
+              GridPane.columnIndex="2"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="86.25"
+                   fitWidth="75"
+                   GridPane.rowIndex="3"
+                   GridPane.columnIndex="6"
+                   GridPane.columnSpan="1"
+                   GridPane.valignment="TOP">
+            <Image url="@/images/road_tri_r.png"/>
+        </ImageView>
+        <Text text="4"
+              GridPane.rowIndex="3"
+              GridPane.columnIndex="6"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+
+        <ImageView fitHeight="86.25"
+                   fitWidth="75"
+                   GridPane.rowIndex="5"
+                   GridPane.columnIndex="6"
+                   GridPane.rowSpan="2"
+                   GridPane.valignment="TOP">
+            <Image url="@/images/road_tri_l.png"/>
+        </ImageView>
+        <Text text="4"
+              GridPane.rowIndex="5"
+              GridPane.columnIndex="6"
+              GridPane.halignment="CENTER"
+              styleClass="distance-style"/>
+    </children>
+</GridPane>

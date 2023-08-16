@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml"
+          fx:controller="edu.duke.ece651.team2.client.controller.MainController">
+    <columnConstraints>
+        <ColumnConstraints percentWidth="10"/>
+        <ColumnConstraints percentWidth="80"/>
+        <ColumnConstraints percentWidth="10"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints percentHeight="65"/>
+        <RowConstraints percentHeight="2"/>
+        <RowConstraints percentHeight="5"/>
+        <RowConstraints percentHeight="5"/>
+        <RowConstraints percentHeight="5"/>
+        <RowConstraints percentHeight="18"/>
+    </rowConstraints>
+    <children>
+        <fx:include source="Map.xml"
+                    GridPane.columnIndex="1"
+                    GridPane.rowIndex="0"
+                    prefHeight="900"
+                    prefWidth="562.5"
+                    fx:id="map"/>
+        <Label text="${'* 1. FR: Food Resource;\t 2. TR: Technology Resource;\t 3. L1: Level1Unit;\t 4. Food is consumed at a rate of distance * unit count;\t 5. Your cloaked territory is marked with a red border;'}"
+               GridPane.rowIndex="1"
+               GridPane.columnIndex="1"
+               GridPane.halignment="LEFT"
+               styleClass="footnote-style"/>
+        <Label fx:id="resourcePrompt"
+               text="${'Your total resource:\t\tFood: 50 \t\t Tech: 40'}"
+               GridPane.rowIndex="2"
+               GridPane.columnIndex="1"
+               GridPane.halignment="CENTER"
+               styleClass="resource-prompt-style"
+               visible="false"/>
+        <Label fx:id="serverPrompt"
+               text="Please select your player type."
+               GridPane.rowIndex="3"
+               GridPane.columnIndex="1"
+               GridPane.halignment="CENTER"
+               styleClass="prompt-style"/>
+        <fx:include fx:id="playerType"
+                    source="PlayerType.xml"
+                    GridPane.columnIndex="1"
+                    GridPane.rowIndex="4"
+                    spacing="75"
+                    alignment="center"/>
+        <fx:include fx:id="actions"
+                    source="Actions.xml"
+                    GridPane.columnIndex="1"
+                    GridPane.rowIndex="4"
+                    spacing="25"
+                    alignment="center"
+                    visible="false"/>
+        <fx:include fx:id="units"
+                    source="Units.xml"
+                    GridPane.columnIndex="1"
+                    GridPane.rowIndex="3"
+                    spacing="30"
+                    alignment="center"
+                    visible="false"/>
+        <fx:include fx:id="upgradeUnits"
+                    source="Upgrade.xml"
+                    GridPane.columnIndex="1"
+                    GridPane.rowIndex="3"
+                    spacing="20"
+                    alignment="center"
+                    visible="false"/>
+        <fx:include fx:id="currentActions"
+                    source="CurrentActions.xml"
+                    spacing="37.5"
+                    GridPane.rowIndex="5"
+                    GridPane.columnIndex="1"
+                    visible="false"/>
+    </children>
+</GridPane>

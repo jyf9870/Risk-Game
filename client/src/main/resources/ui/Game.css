@@ -1,0 +1,95 @@
+.expandable {
+    -fx-max-width: infinity;
+    -fx-max-height: infinity;
+}
+
+.TerritorySelected {
+    -fx-border-width: 2 2 2 2;
+    -fx-background-insets: 0;
+}
+
+.TerritoryA {
+    -fx-font-size: 9pt;
+    -fx-background-color: lightblue;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+}
+
+.TerritoryA:hover {
+    -fx-background-color: gray;
+}
+
+.TerritoryB {
+    -fx-font-size: 9pt;
+    -fx-background-color: lightyellow;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+}
+
+.TerritoryB:hover {
+    -fx-background-color: gray;
+}
+
+.footnote-style {
+    -fx-font-size: 8pt;
+    -fx-border-radius: 1;
+}
+
+.prompt-style {
+    -fx-font-size: 14pt;
+    -fx-wrap-text: true;
+    -fx-padding: 0 7.5 0 7.5;
+}
+
+.unit-style {
+    -fx-font-size: 12pt;
+}
+
+.history-prompt-style {
+    -fx-font-size: 12pt;
+}
+
+.resource-prompt-style {
+    -fx-font-size: 10pt;
+    -fx-border-color: Wheat;
+    -fx-border-radius: 10;
+    -fx-border-width: 2 2 2 2;
+    -fx-padding: 0 7.5 0 7.5;
+}
+
+.distance-style {
+    -fx-font: 24px Tahoma;
+    -fx-fill: white;
+    -fx-stroke: red;
+    -fx-stroke-width: 1;
+}
+
+.choice {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+    #9d4024,
+    #d86e3a,
+    radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 4, 0, 0, 1);
+    -fx-font-weight: bold;
+    -fx-font-size: 14pt;
+    -fx-text-fill: white;
+}
+
+.choice:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+    #9d4024,
+    #d86e3a,
+    radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+
+.choice:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0, 2 0 3 0, 2 0 4 0, 2 0 5 0;
+}

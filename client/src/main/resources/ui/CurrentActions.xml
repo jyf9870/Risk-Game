@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml">
+    <padding>
+        <Insets top="20" bottom="20"/>
+    </padding>
+    <children>
+        <ImageView fitHeight="168.75" preserveRatio="true">
+            <Image url="@/images/bonus.png"/>
+        </ImageView>
+        <VBox>
+            <children>
+                <Label text="Your current action history:"
+                       styleClass="history-prompt-style"/>
+                <ListView prefHeight="150"
+                          prefWidth="525"
+                          fx:id="moves"/>
+            </children>
+        </VBox>
+        <ImageView fitHeight="168.75" preserveRatio="true">
+            <Image url="@/images/cost.png"/>
+        </ImageView>
+    </children>
+</HBox>

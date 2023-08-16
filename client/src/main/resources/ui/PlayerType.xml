@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="edu.duke.ece651.team2.client.controller.MainController">
+    <children>
+        <Button fx:id="HumanPlayer"
+                text="Human"
+                prefHeight="37.5"
+                prefWidth="150"
+                styleClass="choice"
+                onAction="#onPlayer"/>
+        <Button fx:id="AIPlayer"
+                text="AI"
+                prefHeight="37.5"
+                prefWidth="150"
+                styleClass="choice"
+                onAction="#onPlayer"/>
+    </children>
+
+</HBox>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.collections.ObservableList?>
+
+<HBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="edu.duke.ece651.team2.client.controller.MainController">
+    <children>
+        <Label fx:id="unitPrompt"
+               text="How many units do you want to use in this action?"
+               styleClass="prompt-style"/>
+        <ComboBox fx:id="unitLevel"
+                  prefHeight="35"
+                  prefWidth="150"
+                  promptText="Unit Level"
+                  styleClass="unit-style">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="Level1Unit"/>
+                    <String fx:value="Level2Unit"/>
+                    <String fx:value="Level3Unit"/>
+                    <String fx:value="Level4Unit"/>
+                    <String fx:value="Level5Unit"/>
+                    <String fx:value="Level6Unit"/>
+                    <String fx:value="Level7Unit"/>
+                    <String fx:value="SpyUnit"/>
+                </FXCollections>
+            </items>
+            <value>
+                <String fx:value="Level1Unit"/>
+            </value>
+        </ComboBox>
+        <TextField fx:id="unitCount"
+                   prefHeight="35"
+                   prefWidth="75"
+                   styleClass="unit-style"/>
+        <Button fx:id="enter"
+                text="Enter"
+                prefHeight="35"
+                prefWidth="100"
+                styleClass="prompt-style"
+                onAction="#onUnitEnter"/>
+    </children>
+
+</HBox>

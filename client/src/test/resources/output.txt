@@ -1,0 +1,175 @@
+The initial map is:
+A player:
+-------------
+6 units in Elantris (next to: Narnia, Mid, Scadrial, Roshar)
+5 units in Scadrial (next to: Elantris, Mid, Oz, Roshar, Hogwarts, Mordor)
+14 units in Mordor (next to: Oz, Gondor, Scadrial, Hogwarts)
+3 units in Roshar (next to: Elantris, Scadrial, Hogwarts)
+3 units in Hogwarts (next to: Scadrial, Mordor, Roshar)
+
+B player:
+-------------
+13 units in Gondor (next to: Oz, Mordor)
+10 units in Narnia (next to: Elantris, Mid)
+12 units in Mid (next to: Elantris, Narnia, Oz, Scadrial)
+8 units in Oz (next to: Mid, Gondor, Scadrial, Mordor)
+
+
+You are the Player B, what would you like to do?
+(M)ove
+(A)ttack
+(D)one
+
+Player B, which territory do you want to choose as from territory?
+Player B, which territory do you want to choose as to territory?
+Player B, how many units do you want to use in this action?
+Player B, do more actions!
+You are the Player B, what would you like to do?
+(M)ove
+(A)ttack
+(D)one
+
+Player B, your input is valid, please wait for another user!
+The current map is:
+A player:
+-------------
+6 units in Scadrial (next to: Elantris, Mid, Oz, Roshar, Hogwarts, Mordor)
+15 units in Mordor (next to: Oz, Gondor, Scadrial, Hogwarts)
+4 units in Roshar (next to: Elantris, Scadrial, Hogwarts)
+4 units in Hogwarts (next to: Scadrial, Mordor, Roshar)
+
+B player:
+-------------
+9 units in Elantris (next to: Narnia, Mid, Scadrial, Roshar)
+14 units in Gondor (next to: Oz, Mordor)
+1 units in Narnia (next to: Elantris, Mid)
+13 units in Mid (next to: Elantris, Narnia, Oz, Scadrial)
+9 units in Oz (next to: Mid, Gondor, Scadrial, Mordor)
+
+
+You are the Player B, what would you like to do?
+(M)ove
+(A)ttack
+(D)one
+
+Player B, which territory do you want to choose as from territory?
+Player B, which territory do you want to choose as to territory?
+Player B, how many units do you want to use in this action?
+Player B, do more actions!
+You are the Player B, what would you like to do?
+(M)ove
+(A)ttack
+(D)one
+
+Player B, your input is valid, please wait for another user!
+The current map is:
+A player:
+-------------
+16 units in Mordor (next to: Oz, Gondor, Scadrial, Hogwarts)
+5 units in Roshar (next to: Elantris, Scadrial, Hogwarts)
+5 units in Hogwarts (next to: Scadrial, Mordor, Roshar)
+
+B player:
+-------------
+10 units in Elantris (next to: Narnia, Mid, Scadrial, Roshar)
+9 units in Scadrial (next to: Elantris, Mid, Oz, Roshar, Hogwarts, Mordor)
+15 units in Gondor (next to: Oz, Mordor)
+2 units in Narnia (next to: Elantris, Mid)
+4 units in Mid (next to: Elantris, Narnia, Oz, Scadrial)
+10 units in Oz (next to: Mid, Gondor, Scadrial, Mordor)
+
+
+You are the Player B, what would you like to do?
+(M)ove
+(A)ttack
+(D)one
+
+Player B, which territory do you want to choose as from territory?
+Player B, which territory do you want to choose as to territory?
+Player B, how many units do you want to use in this action?
+Player B, do more actions!
+You are the Player B, what would you like to do?
+(M)ove
+(A)ttack
+(D)one
+
+Player B, your input is valid, please wait for another user!
+The current map is:
+A player:
+-------------
+17 units in Mordor (next to: Oz, Gondor, Scadrial, Hogwarts)
+6 units in Hogwarts (next to: Scadrial, Mordor, Roshar)
+
+B player:
+-------------
+1 units in Elantris (next to: Narnia, Mid, Scadrial, Roshar)
+10 units in Scadrial (next to: Elantris, Mid, Oz, Roshar, Hogwarts, Mordor)
+9 units in Roshar (next to: Elantris, Scadrial, Hogwarts)
+16 units in Gondor (next to: Oz, Mordor)
+3 units in Narnia (next to: Elantris, Mid)
+5 units in Mid (next to: Elantris, Narnia, Oz, Scadrial)
+11 units in Oz (next to: Mid, Gondor, Scadrial, Mordor)
+
+
+You are the Player B, what would you like to do?
+(M)ove
+(A)ttack
+(D)one
+
+Player B, which territory do you want to choose as from territory?
+Player B, which territory do you want to choose as to territory?
+Player B, how many units do you want to use in this action?
+Player B, do more actions!
+You are the Player B, what would you like to do?
+(M)ove
+(A)ttack
+(D)one
+
+Player B, your input is valid, please wait for another user!
+The current map is:
+A player:
+-------------
+18 units in Mordor (next to: Oz, Gondor, Scadrial, Hogwarts)
+
+B player:
+-------------
+2 units in Elantris (next to: Narnia, Mid, Scadrial, Roshar)
+1 units in Scadrial (next to: Elantris, Mid, Oz, Roshar, Hogwarts, Mordor)
+10 units in Roshar (next to: Elantris, Scadrial, Hogwarts)
+9 units in Hogwarts (next to: Scadrial, Mordor, Roshar)
+17 units in Gondor (next to: Oz, Mordor)
+4 units in Narnia (next to: Elantris, Mid)
+6 units in Mid (next to: Elantris, Narnia, Oz, Scadrial)
+12 units in Oz (next to: Mid, Gondor, Scadrial, Mordor)
+
+
+You are the Player B, what would you like to do?
+(M)ove
+(A)ttack
+(D)one
+
+Player B, which territory do you want to choose as from territory?
+Player B, which territory do you want to choose as to territory?
+Player B, how many units do you want to use in this action?
+Player B, do more actions!
+You are the Player B, what would you like to do?
+(M)ove
+(A)ttack
+(D)one
+
+Player B, your input is valid, please wait for another user!
+The current map is:
+B player:
+-------------
+3 units in Elantris (next to: Narnia, Mid, Scadrial, Roshar)
+2 units in Scadrial (next to: Elantris, Mid, Oz, Roshar, Hogwarts, Mordor)
+4 units in Mordor (next to: Oz, Gondor, Scadrial, Hogwarts)
+11 units in Roshar (next to: Elantris, Scadrial, Hogwarts)
+10 units in Hogwarts (next to: Scadrial, Mordor, Roshar)
+1 units in Gondor (next to: Oz, Mordor)
+5 units in Narnia (next to: Elantris, Mid)
+7 units in Mid (next to: Elantris, Narnia, Oz, Scadrial)
+13 units in Oz (next to: Mid, Gondor, Scadrial, Mordor)
+
+
+Player B wins!

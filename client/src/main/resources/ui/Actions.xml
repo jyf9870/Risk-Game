@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="edu.duke.ece651.team2.client.controller.MainController">
+    <padding>
+        <Insets top="20" bottom="20"/>
+    </padding>
+    <children>
+        <Button fx:id="A"
+                text="Attack"
+                prefHeight="37.5"
+                prefWidth="150"
+                styleClass="choice"
+                onAction="#onAction"/>
+        <Button fx:id="M"
+                text="Move"
+                prefHeight="37.5"
+                prefWidth="150"
+                styleClass="choice"
+                onAction="#onAction"/>
+        <Button fx:id="U"
+                text="Upgrade"
+                prefHeight="37.5"
+                prefWidth="150"
+                styleClass="choice"
+                onAction="#onAction"/>
+        <Button fx:id="C"
+                text="Cloak"
+                prefHeight="37.5"
+                prefWidth="150"
+                styleClass="choice"
+                onAction="#onAction"/>
+        <Button fx:id="D"
+                text="Done"
+                prefHeight="37.5"
+                prefWidth="150"
+                styleClass="choice"
+                onAction="#onDone"/>
+    </children>
+
+</HBox>
